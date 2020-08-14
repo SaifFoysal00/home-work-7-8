@@ -1,0 +1,160 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+.header_section{
+	width:1177px;
+	margin:0 auto;
+}
+.header_top_section{
+	height: 637px;
+	margin-bottom: 145px;
+}
+.menu_area{
+	width:1177px;
+	height: 10vh;
+	margin-bottom: 15px;
+	line-height: 10vh;
+}
+
+.menu_bar a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	margin-left: 35px;
+    
+}
+.menu_bar a:hover{
+	color:orange;
+	font-weight: 600;
+	transiton:all 1s ease;
+}
+.header_logo{
+	display: inline;
+	float: left;
+    margin-right: 229px;
+    margin-left: 5px;
+}
+.header_logo h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size:25px;
+}
+.menu_bar{
+	width:455px;
+	float: left;
+	
+}
+.menu_bar ul{
+	list-style: none;
+}
+.menu_bar ul li{
+	float: left;
+}
+.join_us{
+	float: right;
+	margin-right: 40px;
+}
+.btn1{
+	font-size: 13px;
+	font-weight: 400;
+	margin-right: 25px;
+}
+.btn2{
+	background: orange;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+    padding:10px 20px;
+    border-radius: 5px;
+
+}
+.slider_area{
+	height: 559px;
+	background: linear-gradient(to left,#96bece 80% , #fff 20%);
+  
+}
+.s_left_side{
+	width:587px;
+	display: inline;
+	float:left;
+	margin-left: 10px;
+	margin-top:160px;
+	position: relative;
+}
+.s_left_side h1{
+	font-size: 52px;
+	font-weight: 600;
+    margin-bottom: 25px;
+}
+.scroll_bar{
+	font-size:20px;
+	font-weight: 300;
+	margin-top:140px;
+	display: block;
+	transform:rotate(90deg);
+	position: absolute;
+	top:175px;
+	left:-50px;
+}
+.s_right_side{
+	float: right;
+    margin-top:500px;
+    background: red;
+    padding: 20px 40px
+}
+.s_right_side a{
+	padding:0px 15px;
+}
+.s_right_side i{
+ color:white;	
+
+}
+.form_wrapper [type=text]{
+	background: orange;
+	border:none;
+	padding: 15px 50px;
+	color:white;
+}
+input::placeholder {
+  color: red;
+}
+.form_wrapper [type=button]{
+  background:yellow;
+  border:none;
+  padding:15px 20px;
+  margin-left:-5px;
+  border-radius:2px 0px 0px 2px;;
+  cursor:pointer;
+}
+.s_bottom_area{
+	height:450px;
+}
+.s_bottom_left{
+	width:550px;
+	float: left;
+	margin-left: 10px;
+}
+.s_bottom_left h2{
+  font-size: 52px;
+  font-weight: 600;
+  margin-bottom: 25px;  
+  text-transform: capitalize;
+}
+.s_bottom_left p{
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 55px;
+  justify-content: center;
+}
+.s_bottom_right{
+	float: right;
+	width:440px;
+	margin-right: 20px;
+}
